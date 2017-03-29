@@ -46,6 +46,11 @@
     color: #3CB371;
 }
 
+.container button {
+    margin-top: -35px;
+    margin-bottom: 45px;
+    
+}
 
 
 i {
@@ -60,10 +65,21 @@ i {
 /***************************
           Banners
 ***************************/
+
+
 .bannerTwo,
 .banner {
     width: 100%;
     margin: 45px 0;
+    height: 175px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+.bannerThree {
+    width: 100%;
+    margin-top: -35px;
     height: 175px;
     -webkit-box-shadow: 0 8px 6px -6px black;
 	   -moz-box-shadow: 0 8px 6px -6px black;
@@ -86,6 +102,14 @@ i {
     text-shadow: 2px 7px 10px rgba(2,0,0,0.8);
 }
 
+.bannerTextThree span {
+    position: relative;
+    top: -125px;
+    color: white;
+    font-size: 1.5em;
+    text-shadow: 2px 7px 10px rgba(2,0,0,0.8);
+}
+
 .jumbotron  {
     background-image: url('../img/DSC00316.JPG');
     background-size: cover;
@@ -102,8 +126,7 @@ i {
     margin: 0 auto;
     padding: 15px;
     border-radius: 5px;
-    
-}
+    }
 
 .imageOverlay h2 {
     color: white;
@@ -155,47 +178,39 @@ i {
     position:relative; 
     top: 165px;
    }
+    .bannerThree,
     .bannerTwo,
     .banner {
     height: 400px;
    }
     .bannerText span {
-    top: -315px;
-    font-size: 4em;
+        top: -315px;
+        font-size: 4em;
     }
     .bannerTextTwo span {
         top: -355px;
+        font-size: 4em;
+    }
+    .bannerTextThree span {
+        top: -315px;
         font-size: 4em;
     }
     .paraHeader p {
         padding-left: 55px;
         padding-right: 55px;
     }
-    .rowFix {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display:         flex;
-      flex-wrap: wrap;
-     }
-    .rowFix > [class*='colFix'] {
-      display: flex;
-      flex-direction: column;
-     }
-
-    .btn {
-      position: absolute;
-      bottom: 0;
-      left: 75px;
-      }
+   
     .teamContainer {
     margin-top: -225px;
     margin-bottom: 95px;
-}
+    }
     .teamContainer h2 {
     font-size: 3em;
-}
+    } 
+    .container button {
+        padding: 25px;
     }
+}
 
 @media (min-width: 991px){
     .picFix {
