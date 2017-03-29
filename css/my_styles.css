@@ -1,0 +1,207 @@
+/***************************
+        Base Styles
+***************************/
+
+.paraHeader h1 {
+    font-size: 3.5em;
+    margin-top: 45px;
+    padding: 45px 0;
+    color: #3CB371;
+        
+}
+
+.paraHeader p {
+    padding: 25px;
+    margin: 35px 0;
+    font-size: 1.5em;
+}
+
+.teamHeader {
+    padding-bottom: 10px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid black;
+}
+
+.container-fluid {
+    padding: 0 0 !important;
+}
+
+.treeContainer {
+    margin: 35px auto;
+}
+
+.serviceContainer {
+    margin-top: -175px;
+    margin-bottom: 95px;
+}
+
+.teamContainer {
+    margin-top: -175px;
+    margin-bottom: 95px;
+}
+
+.teamContainer h2 {
+    font-size: 2em;
+    color: #3CB371;
+}
+
+
+
+i {
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+    color: #3CB371;
+}
+
+
+
+
+
+/***************************
+          Banners
+***************************/
+.bannerTwo,
+.banner {
+    width: 100%;
+    margin: 45px 0;
+    height: 175px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+.bannerText span {
+    position: relative;
+    top: -175px;
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 7px 10px rgba(2,0,0,0.8);
+}
+
+.bannerTextTwo span {
+    position: relative;
+    top: -195px;
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 7px 10px rgba(2,0,0,0.8);
+}
+
+.jumbotron  {
+    background-image: url('../img/DSC00316.JPG');
+    background-size: cover;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+    }
+
+.imageOverlay h1 {
+    color: #3CB371;
+    font-size: 3em;
+    background-color: rgba(0,0,0,.5);
+    width: 375px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 5px;
+    
+}
+
+.imageOverlay h2 {
+    color: white;
+    z-index: 100000;
+    font-size: 2em;
+    padding-top: 20px;
+    text-shadow: 2px 7px 10px rgba(2,0,0,0.8);
+}
+
+.imageOverlay span {
+    color: white;
+    font-size: 1em;
+    background-color: rgba(0,0,0,.5);
+    padding: 5px;
+    border-radius: 5px;
+    }
+
+
+
+/***************************
+       Media Queries
+***************************/
+
+
+
+
+
+
+@media (min-width: 400px){
+    .jumbotron {
+        height: 275px;
+    }
+}
+
+@media (min-width: 768px){
+    .jumbotron {
+        height: 600px;
+    }
+    .imageOverlay h1 {
+        width: 600px;
+        font-size: 4em;
+    }
+    .imageOverlay h2 {
+        padding-top: 75px;
+        font-size: 2.75em;
+    }
+    .imageOverlay span {
+    font-size: 2.5em;
+    position:relative; 
+    top: 165px;
+   }
+    .bannerTwo,
+    .banner {
+    height: 400px;
+   }
+    .bannerText span {
+    top: -315px;
+    font-size: 4em;
+    }
+    .bannerTextTwo span {
+        top: -355px;
+        font-size: 4em;
+    }
+    .paraHeader p {
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+    .rowFix {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display:         flex;
+      flex-wrap: wrap;
+     }
+    .rowFix > [class*='colFix'] {
+      display: flex;
+      flex-direction: column;
+     }
+
+    .btn {
+      position: absolute;
+      bottom: 0;
+      left: 75px;
+      }
+    .teamContainer {
+    margin-top: -225px;
+    margin-bottom: 95px;
+}
+    .teamContainer h2 {
+    font-size: 3em;
+}
+    }
+
+@media (min-width: 991px){
+    .picFix {
+        padding-left: 41px;
+    }
+}
+
+
+
