@@ -2,9 +2,13 @@
         Base Styles
 ***************************/
 
+li {
+    list-style: none;
+}
+
+
 .paraHeader h1 {
     font-size: 3.5em;
-    margin-top: 45px;
     padding: 45px 0;
     color: #3CB371;
         
@@ -14,6 +18,18 @@
     padding: 25px;
     margin: 35px 0;
     font-size: 1.5em;
+}
+
+.workHeader h1 {
+    font-size: 3em;
+    margin-top: -45px;
+    padding: 45px 0;
+    color: #3CB371; 
+}
+
+.workHeader h3 {
+    font-size: 2em;
+    margin-bottom: 65px;
 }
 
 .teamHeader {
@@ -32,9 +48,14 @@
 }
 
 .serviceContainer {
-    margin-top: -175px;
+    margin-top: -135px;
     margin-bottom: 95px;
 }
+
+.carouselContainer {
+    margin: 45px 0;
+}
+
 
 .teamContainer {
     margin-top: -175px;
@@ -46,11 +67,28 @@
     color: #3CB371;
 }
 
+.footerContainer {
+    background-color: #3CB371;
+}
+
 .container button {
     margin-top: -35px;
     margin-bottom: 45px;
     
 }
+
+.contactList {
+    padding: 25px 0;
+    text-align: center; 
+    }
+.contactList li {
+    font-size: 1.25em;
+}
+
+.footer-copyright {
+    padding: 15px 0;
+}
+
 
 
 i {
@@ -192,8 +230,8 @@ i {
         font-size: 4em;
     }
     .bannerTextThree span {
-        top: -315px;
-        font-size: 4em;
+        top: -275px;
+        font-size: 3em;
     }
     .paraHeader p {
         padding-left: 55px;
@@ -209,6 +247,13 @@ i {
     } 
     .container button {
         padding: 25px;
+    }
+    .workHeader h1 {
+        margin-top: -150px;
+    }
+    .workHeader h3 {
+    font-size: 2em;
+    margin-bottom: 65px;
     }
 }
 
